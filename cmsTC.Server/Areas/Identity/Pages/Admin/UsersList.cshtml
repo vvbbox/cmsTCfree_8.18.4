@@ -1,0 +1,29 @@
+@page
+@model cmsTC.Server.Areas.Identity.Pages.Admin.UsersListModel
+@{
+    ViewData["Title"] = "Список пользователей";
+}
+
+<h1>Список пользователей</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Email</th>
+            <th>Роль</th>
+            <th>Подтвержден</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>@user.Role</td>
+                <td>@(user.IsEmailConfirmed ? "Да" : "Нет")</td>
+            </tr>
+        }
+    </tbody>
+</table>

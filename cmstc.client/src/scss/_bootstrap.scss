@@ -1,0 +1,36 @@
+// Импорт функций Bootstrap
+@use "../../node_modules/bootstrap/scss/functions" as *;
+
+// Переопределение переменных по умолчанию
+$body-color: #333;
+$body-bg: #fff;
+$border-radius: .4rem;
+$success: #198855; //#7952b3;
+
+// Импорт переменных, миксинов и других модулей Bootstrap
+@use "../../node_modules/bootstrap/scss/variables" as *;
+@use "../../node_modules/bootstrap/scss/variables-dark" as *;
+@use "../../node_modules/bootstrap/scss/maps" as *;
+@use "../../node_modules/bootstrap/scss/mixins" as *;
+@use "../../node_modules/bootstrap/scss/utilities" as *;
+
+// Импорт основных стилей Bootstrap
+@use "../../node_modules/bootstrap/scss/root" as *;
+@use "../../node_modules/bootstrap/scss/reboot" as *;
+@use "../../node_modules/bootstrap/scss/type" as *;
+@use "../../node_modules/bootstrap/scss/containers" as *;
+@use "../../node_modules/bootstrap/scss/grid" as *;
+@use "../../node_modules/bootstrap/scss/buttons" as *;
+@use "../../node_modules/bootstrap/scss/transitions" as *;
+@use "../../node_modules/bootstrap/scss/dropdown" as *;
+@use "../../node_modules/bootstrap/scss/nav" as *;
+@use "../../node_modules/bootstrap/scss/navbar" as *; // Требует nav
+@use "../../node_modules/bootstrap/scss/card" as *;
+@use "../../node_modules/bootstrap/scss/accordion" as *;
+@use "../../node_modules/bootstrap/scss/close" as *;
+@use "../../node_modules/bootstrap/scss/modal" as *; // Требует transitions
+@use "../../node_modules/bootstrap/scss/popover" as *;
+@use "../../node_modules/bootstrap/scss/offcanvas" as *; // Требует transitions
+
+// Импорт утилит Bootstrap
+@use "../../node_modules/bootstrap/scss/utilities/api" as *;

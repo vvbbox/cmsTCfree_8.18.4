@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:56604",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/../cmstc.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

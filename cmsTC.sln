@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cmstc.client", "cmstc.client\cmstc.client.esproj", "{AD7A79E3-8217-5FD8-D565-F5731330E9D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cmsTC.Server", "cmsTC.Server\cmsTC.Server.csproj", "{87465469-E38E-4FF3-82A6-1AAAC0661C77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7A79E3-8217-5FD8-D565-F5731330E9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7A79E3-8217-5FD8-D565-F5731330E9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7A79E3-8217-5FD8-D565-F5731330E9D1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD7A79E3-8217-5FD8-D565-F5731330E9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7A79E3-8217-5FD8-D565-F5731330E9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7A79E3-8217-5FD8-D565-F5731330E9D1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{87465469-E38E-4FF3-82A6-1AAAC0661C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87465469-E38E-4FF3-82A6-1AAAC0661C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87465469-E38E-4FF3-82A6-1AAAC0661C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87465469-E38E-4FF3-82A6-1AAAC0661C77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F51E8FE1-9B43-44AA-AE84-009A82069097}
+	EndGlobalSection
+EndGlobal
