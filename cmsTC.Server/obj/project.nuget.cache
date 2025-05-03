@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IZnnibEbI2824vUTqGgbqhfi0DH/iMmnaEv3wugBlv+PQnRmVrr+dp5Ptx1qEFXe+mrPSv0o3lbS2Ykl0o7tog==",
+  "dgSpecHash": "jULEcVF0QYzEGQaALbn6JIb8ACuydvZWQJdkq62E+nO0ZHltmQVX+I/dvnaEhqRMQiud4VLNQhbjoxd8HOeKxw==",
   "success": true,
-  "projectFilePath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
+  "projectFilePath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
   "expectedPackageFiles": [
     "/home/vvb/.nuget/packages/bouncycastle.cryptography/2.4.0/bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "/home/vvb/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",

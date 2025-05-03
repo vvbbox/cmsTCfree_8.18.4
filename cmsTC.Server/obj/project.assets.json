@@ -7837,11 +7837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
+      "projectUniqueName": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
       "projectName": "cmsTC.Server",
-      "projectPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
+      "projectPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
       "packagesPath": "/home/vvb/.nuget/packages/",
-      "outputPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/obj/",
+      "outputPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/vvb/.nuget/NuGet/NuGet.Config"

@@ -2,3 +2,4 @@
 /home/vvb/Projects/cmsTCfree_8.19.3/cmstc.client/obj/Debug/cmstc.client.esproj.CoreCompileInputs.cache
 Y:/home/vvb/Projects/cmsTCfree_8.18.4/cmstc.client/obj/Debug/cmstc.client.esproj.CoreCompileInputs.cache
 /home/vvb/Projects/cmsTCfree_8.18.4/cmstc.client/obj/Debug/cmstc.client.esproj.CoreCompileInputs.cache
+/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmstc.client/obj/Debug/cmstc.client.esproj.CoreCompileInputs.cache
