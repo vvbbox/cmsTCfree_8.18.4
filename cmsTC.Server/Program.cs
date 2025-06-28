@@ -66,14 +66,15 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-app.UseStaticFiles();
-app.UseHttpsRedirection();
-app.UseDefaultFiles();
-/*
-var cacheMaxAgeOneWeek = (60 * 60 * 24 * 7).ToString();
 
+app.UseDefaultFiles();
+
+app.UseHttpsRedirection();
+
+var cacheMaxAgeOneWeek = (60 * 60 * 24 * 7).ToString();
 app.UseStaticFiles(new StaticFileOptions
 {
     OnPrepareResponse = ctx =>
@@ -82,37 +83,19 @@ app.UseStaticFiles(new StaticFileOptions
              "Cache-Control", $"public, max-age={cacheMaxAgeOneWeek}");
     }
 });
-*/
+
+app.UseStaticFiles();
+
 app.UseRouting();
+
 app.UseAuthorization();
+app.MapAreaControllerRoute( name: "areas", areaName: "rus", pattern: "{area:exists}/{controller}/{action}/{id?}");
+app.MapAreaControllerRoute( name: "areas", areaName: "eng", pattern: "{area:exists}/{controller}/{action}/{id?}");
+app.MapAreaControllerRoute( name: "areas", areaName: "api", pattern: "{area:exists}/{controller}/{action}/{id?}");
 
 app.MapRazorPages();
-//app.MapControllers();
-/*
-#pragma warning disable ASP0014
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-        name: "api",
-        pattern: "api/{controller=Dashboard}/{action=Index}/{id?}");
 
-    endpoints.MapFallbackToFile("/js/index.html"); // Для SPA
-});
-#pragma warning disable ASP0014
+app.MapControllers();
 
-*/
-app.MapAreaControllerRoute(
-    name: "areas",
-    areaName: "api",
-    pattern: "{area:exists}/{controller}/{action}/{id?}");
-
-//app.MapFallbackToFile("/js/index.html");
-
-//app.MapFallbackToFile("/first", "/js/first/index.html");
-//app.MapFallbackToFile("/second", "/js/second/eng/index.html");
-
-// Добавляем маршруты для SPA
-//app.MapFallbackToPage("/FirstSpa", "/FirstSpa");
-//app.MapFallbackToPage("/SecondSpa", "/SecondSpa");
-
+app.MapFallbackToFile("index.html");
 app.Run();

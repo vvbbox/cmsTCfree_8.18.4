@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj": {}
+    "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj": {}
   },
   "projects": {
-    "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj": {
+    "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
+        "projectUniqueName": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
         "projectName": "cmsTC.Server",
-        "projectPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
+        "projectPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
         "packagesPath": "/home/vvb/.nuget/packages/",
-        "outputPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/obj/",
+        "outputPath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vvb/.nuget/NuGet/NuGet.Config"
@@ -106,6 +106,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[8.0.17, 8.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -114,7 +128,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

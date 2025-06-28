@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">cmstc.client</PackageJsonName>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint .</PackageJsonScriptsLint>
+    <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesHookformResolvers Condition="$(PackageJsonDependenciesHookformResolvers) == ''">^4.1.2</PackageJsonDependenciesHookformResolvers>
+    <PackageJsonDependenciesBootstrap Condition="$(PackageJsonDependenciesBootstrap) == ''">^5.3.3</PackageJsonDependenciesBootstrap>
+    <PackageJsonDependenciesBootstrapIcons Condition="$(PackageJsonDependenciesBootstrapIcons) == ''">1.11.3</PackageJsonDependenciesBootstrapIcons>
+    <PackageJsonDependenciesHtmlReactParser Condition="$(PackageJsonDependenciesHtmlReactParser) == ''">5.2.2</PackageJsonDependenciesHtmlReactParser>
+    <PackageJsonDependenciesJoditReact Condition="$(PackageJsonDependenciesJoditReact) == ''">5.2.15</PackageJsonDependenciesJoditReact>
+    <PackageJsonDependenciesPath Condition="$(PackageJsonDependenciesPath) == ''">0.12.7</PackageJsonDependenciesPath>
+    <PackageJsonDependenciesPrismjs Condition="$(PackageJsonDependenciesPrismjs) == ''">^1.30.0</PackageJsonDependenciesPrismjs>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.3.1</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactHelmet Condition="$(PackageJsonDependenciesReactHelmet) == ''">6.1.0</PackageJsonDependenciesReactHelmet>
+    <PackageJsonDependenciesReactHookForm Condition="$(PackageJsonDependenciesReactHookForm) == ''">7.54.2</PackageJsonDependenciesReactHookForm>
+    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">7.2.0</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDependenciesReactstrap Condition="$(PackageJsonDependenciesReactstrap) == ''">9.2.3</PackageJsonDependenciesReactstrap>
+    <PackageJsonDependenciesRecoil Condition="$(PackageJsonDependenciesRecoil) == ''">^0.7.7</PackageJsonDependenciesRecoil>
+    <PackageJsonDependenciesYup Condition="$(PackageJsonDependenciesYup) == ''">^1.6.1</PackageJsonDependenciesYup>
+    <PackageJsonDevdependenciesEslintJs Condition="$(PackageJsonDevdependenciesEslintJs) == ''">^9.13.0</PackageJsonDevdependenciesEslintJs>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.3.12</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.3.1</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^4.3.4</PackageJsonDevdependenciesVitejsPluginReact>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^9.21.0</PackageJsonDevdependenciesEslint>
+    <PackageJsonDevdependenciesEslintPluginReact Condition="$(PackageJsonDevdependenciesEslintPluginReact) == ''">^7.37.4</PackageJsonDevdependenciesEslintPluginReact>
+    <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^5.1.0</PackageJsonDevdependenciesEslintPluginReactHooks>
+    <PackageJsonDevdependenciesEslintPluginReactRefresh Condition="$(PackageJsonDevdependenciesEslintPluginReactRefresh) == ''">^0.4.19</PackageJsonDevdependenciesEslintPluginReactRefresh>
+    <PackageJsonDevdependenciesGlobals Condition="$(PackageJsonDevdependenciesGlobals) == ''">^16.0.0</PackageJsonDevdependenciesGlobals>
+    <PackageJsonDevdependenciesRunScriptOs Condition="$(PackageJsonDevdependenciesRunScriptOs) == ''">^1.1.6</PackageJsonDevdependenciesRunScriptOs>
+    <PackageJsonDevdependenciesSass Condition="$(PackageJsonDevdependenciesSass) == ''">^1.86.0</PackageJsonDevdependenciesSass>
+    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^6.2.3</PackageJsonDevdependenciesVite>
+    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''">This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.</PackageJsonDescription>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">eslint.config.js</PackageJsonMain>
+    <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''"></PackageJsonAuthor>
+    <PackageJsonLicense Condition="$(PackageJsonLicense) == ''">ISC</PackageJsonLicense>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,124 @@
+{
+  "../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-BOrJxbIo.woff",
+    "src": "../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-BtvjY1KL.woff2",
+    "src": "../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "_config.actions-BYJ5XVMZ.js": {
+    "file": "assets/config.actions-BYJ5XVMZ.js",
+    "name": "config.actions",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_context.actions-DUGmlnb2.js": {
+    "file": "assets/context.actions-DUGmlnb2.js",
+    "name": "context.actions",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_index.esm-BMQL-J4v.js": {
+    "file": "assets/index.esm-BMQL-J4v.js",
+    "name": "index.esm",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-Kwye6Ie_.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "js/config/configRoute.jsx",
+      "js/picture/pictureRoute.jsx",
+      "js/context/contextRoute.jsx",
+      "js/weather/weather.jsx",
+      "js/components/index.js"
+    ],
+    "css": [
+      "assets/index-CdIuNgOC.css"
+    ],
+    "assets": [
+      "assets/bootstrap-icons-BtvjY1KL.woff2",
+      "assets/bootstrap-icons-BOrJxbIo.woff"
+    ]
+  },
+  "js/components/index.js": {
+    "file": "assets/index-BvPIcLpe.js",
+    "name": "index",
+    "src": "js/components/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "js/config/configRoute.jsx": {
+    "file": "assets/configRoute-BeHmcMW7.js",
+    "name": "configRoute",
+    "src": "js/config/configRoute.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_config.actions-BYJ5XVMZ.js",
+      "_index.esm-BMQL-J4v.js"
+    ]
+  },
+  "js/context/Contextlist.jsx": {
+    "file": "assets/Contextlist-r5nw3aDw.js",
+    "name": "Contextlist",
+    "src": "js/context/Contextlist.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_context.actions-DUGmlnb2.js"
+    ]
+  },
+  "js/context/Contextview.jsx": {
+    "file": "assets/Contextview-CuYZ19zy.js",
+    "name": "Contextview",
+    "src": "js/context/Contextview.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_config.actions-BYJ5XVMZ.js",
+      "_context.actions-DUGmlnb2.js"
+    ]
+  },
+  "js/context/contextRoute.jsx": {
+    "file": "assets/contextRoute-DMtXB-Gl.js",
+    "name": "contextRoute",
+    "src": "js/context/contextRoute.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ],
+    "dynamicImports": [
+      "js/context/Contextlist.jsx",
+      "js/context/Contextview.jsx"
+    ]
+  },
+  "js/picture/pictureRoute.jsx": {
+    "file": "assets/pictureRoute-BzyqLqds.js",
+    "name": "pictureRoute",
+    "src": "js/picture/pictureRoute.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_index.esm-BMQL-J4v.js"
+    ]
+  },
+  "js/weather/weather.jsx": {
+    "file": "assets/weather-BrA4DS4k.js",
+    "name": "weather",
+    "src": "js/weather/weather.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  }
+}
