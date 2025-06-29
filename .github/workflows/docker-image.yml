@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag cmsTCfree_8.18.4:$(date +%s)
+      run: docker build . --file Dockerfile --tag cmstcfree_8.18.4:$(date +%s)
