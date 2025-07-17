@@ -1,76 +1,4 @@
 import { useRecoilState } from 'recoil';
-import { authAtom } from '../state';
-import { useNavigate } from 'react-router-dom';
-import { useAlertActions } from '../actions';
-
-
-function useFetchWrapper() {
-    const navigate = useNavigate();
-    const [auth, setAuth] = useRecoilState(authAtom);
-    const alertActions = useAlertActions();
-
-    const request = (method) => async (url, body) => {
-        try {
-            const headers = authHeader(url);
-            const options = {
-                method,
-                headers,
-                ...(body && { body: JSON.stringify(body) })
-            };
-
-            const response = await fetch(url, options);
-            return handleResponse(response);
-        } catch (error) {
-            alertActions.error(`Network error: ${error.message}`);
-            throw error;
-        }
-    };
-
-    const authHeader = (url) => {
-        const isLoggedIn = !!auth?.token;
-        const isApiUrl = url.startsWith(API_URL);
-
-        return isLoggedIn && isApiUrl
-            ? { Authorization: `Bearer ${auth.token}` }
-            : { 'Content-Type': 'application/json' };
-    };
-
-    const handleResponse = (response) => {
-        return response.text().then((text) => {
-            let data;
-            try {
-                data = text ? JSON.parse(text) : null;
-            } catch (e) {
-                data = text; // Keep raw text if parsing fails
-            }
-
-            if (!response.ok) {
-                if ([401, 403].includes(response.status) && auth?.token) {
-                    localStorage.removeItem('user');
-                    setAuth(null);
-                    navigate('/account/login');
-                }
-
-                const error = data?.message || response.statusText;
-                alertActions.error(error);
-                return Promise.reject(error);
-            }
-
-            return data;
-        });
-    };
-
-    return {
-        get: request('GET'),
-        post: request('POST'),
-        put: request('PUT'),
-        delete: request('DELETE')
-    };
-}
-
-export { useFetchWrapper };
-/*
-import { useRecoilState } from 'recoil';
 //import { history } from './history.js';//'../actions/history.js';
 import { authAtom } from '../state';
 import { useNavigate } from 'react-router-dom';
@@ -144,4 +72,3 @@ function useFetchWrapper() {
     }  
 }
 export { useFetchWrapper };
-*/

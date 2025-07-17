@@ -858,3 +858,4 @@ Y:/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/obj/Debug/net8.0/ref/cmsTC.Se
 /home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/obj/Debug/net8.0/cmsTC.Server.pdb
 /home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/obj/Debug/net8.0/cmsTC.Server.genruntimeconfig.cache
 /home/vvb/Projects/cmsTCfree_8.18.4/cmsTCfree_8.18.4/cmsTC.Server/obj/Debug/net8.0/ref/cmsTC.Server.dll
+/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/obj/Debug/net8.0/cmsTC.Server.sourcelink.json

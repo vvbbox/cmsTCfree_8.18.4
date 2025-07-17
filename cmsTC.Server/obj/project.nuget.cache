@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YtS2+F3abs+3uGODNURD2iKQ+A83fD4FjZO5XfjdwDEBacCl2Ow68smpLsouFf5YFDlPyXTp6hr+LVYjokVcRQ==",
+  "dgSpecHash": "cfbOAbAESketC4KrzqHC4pf3MNxKqC+hKRxUaKaVSySuD49j6+vxN5PvOEt2ORcEBaUntGPxrtNa29XVQlllAQ==",
   "success": true,
   "projectFilePath": "/home/vvb/Projects/cmsTCfree_8.18.4/cmsTC.Server/cmsTC.Server.csproj",
   "expectedPackageFiles": [
@@ -164,10 +164,7 @@
     "/home/vvb/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512",
     "/home/vvb/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/home/vvb/.nuget/packages/system.threading.tasks.dataflow/7.0.0/system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
-    "/home/vvb/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512",
-    "/home/vvb/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/8.0.17/microsoft.netcore.app.runtime.linux-x64.8.0.17.nupkg.sha512",
-    "/home/vvb/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/8.0.17/microsoft.aspnetcore.app.runtime.linux-x64.8.0.17.nupkg.sha512",
-    "/home/vvb/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.17/microsoft.netcore.app.host.linux-x64.8.0.17.nupkg.sha512"
+    "/home/vvb/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
